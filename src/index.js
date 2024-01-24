@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import A1variables from './document/A1variables';
-import A2ifelse from './document/A2ifelse';
+import A2ifelse from './document/A2conditional';
 import A3_loops1 from './document/A3_loops1';
 import A3_string from './document/A3_string';
 import Practice1 from './document/ifelse';
@@ -18,7 +18,7 @@ import A12Promises from './document/A12Promises';
 import A12asyncfnc from './document/A12asyncfnc';
 import A12asyncAwait from './document/A12asyncAwait';
 import A13fetchApi from './document/A13fetchApi';
-// import App from './document/App';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,6 +39,5 @@ root.render(<>
   <A12asyncfnc></A12asyncfnc>
   <A12asyncAwait></A12asyncAwait>
   <A13fetchApi></A13fetchApi>
-  {/* <App /> */}
 </>);
 reportWebVitals();

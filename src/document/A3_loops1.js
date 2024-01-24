@@ -3,23 +3,49 @@ import React from 'react'
 const A3_loops1 = () => {
 
     let for1 = () => {
-        for (let i = 1; i <= 3; i++) {
-            console.log(i);
+        // "SAMPLE"
+        for (let i = 1; i <= 5; i++) {
+            console.log(i + "Sarthi");
         }
     };
+
+
+
     let for2 = () => {
-        for (let i = 1; i <= 3; i++) {
-            console.log(i);
-        }  
+        const numbers = [5, 1, 8, 3];
+        let smallest = numbers[3];
+        // for (let i = 1; i < numbers.length; i++) {
+        //     if (numbers[i] < smallest) smallest = numbers[i];
+        // }
+        // console.log("Smallest:", smallest);
+        // console.log(numbers.length);
+        console.log(numbers[2]); 
+        console.log();  
+        console.log(); 
+        console.log();
+        console.log();
     };
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     let while1 = () => {
         let i = 2;
-        while (i <= 7) { 
+        while (i <= 7) {
+
             console.log(i);
             i++;
-
         }
     };
 
