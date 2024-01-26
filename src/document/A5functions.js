@@ -3,9 +3,10 @@ import React from 'react'
 const A5functions = () => {
 
     let function1 = () => {
-       function name(params) {
-        let arr = [1,2,3,4,5]
+       function greet(name) {
+        console.log("hello, " + name + "!");
        }
+       greet("JohnCena");
     };
 
 
@@ -14,7 +15,7 @@ const A5functions = () => {
 
     return (<>
         <h2><b><u>5.Function</u></b></h2>
-        {/* {function1()} */}
+        {function1()}
     </>)
 };
 
