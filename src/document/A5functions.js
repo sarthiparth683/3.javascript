@@ -79,7 +79,7 @@ const A5functions = () => {
         } else {
             console.log("The number is not a multiple of 5.");
         }
-    }; 
+    };
 
     let function8 = () => {
         function generateRandomNumber(min, max) {
@@ -89,11 +89,38 @@ const A5functions = () => {
         let maxNumber = 25;
         let randomNumber = generateRandomNumber(minNumber, maxNumber);
         console.log("Random number's result", minNumber, "and", maxNumber, ":", randomNumber);
-    };         
+    };
 
+    let function9 = () => {
+        // Leap Year
+        function isleapYear(year) {
+            return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+        }
+        let yearToCheck = prompt("Enter a year");
+        if (isleapYear(yearToCheck)) {
+            console.log(yearToCheck + "is a leap year.");
+        } else {
+            console.log(yearToCheck + "is not a leap year.");
+        }
+    };
 
+    let function10 = () => {
+        // Find Maximum number
+        function findMax(num1, num2, num3) {
+            let max = num1;
+            if (num2 > max) {
+                max = num2;
+            } 
+            if (num3 > max) {
+                max = num3;
+            }
+            return max;
+        }
+    };
 
-
+ 
+ 
+ 
 
 
 
@@ -107,6 +134,8 @@ const A5functions = () => {
         {/* {function6()} */}
         {/* {function7()} */}
         {/* {function8()} */}
+        {/* {function9()} */}
+        {/* {function10()} */}
     </>)
 };
 
