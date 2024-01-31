@@ -110,19 +110,13 @@ const A5functions = () => {
             let max = num1;
             if (num2 > max) {
                 max = num2;
-            } 
+            }
             if (num3 > max) {
                 max = num3;
             }
             return max;
         }
     };
-
- 
- 
- 
-
-
 
     return (<>
         <h2><b><u>5.Function (need 100 eg.)</u></b></h2>

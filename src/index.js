@@ -18,6 +18,7 @@ import A12Promises from './document/A12Promises';
 import A12asyncfnc from './document/A12asyncfnc';
 import A12asyncAwait from './document/A12asyncAwait';
 import A13fetchApi from './document/A13fetchApi';
+import A14leetcode from './document/A14leetcode';
 
 
 
@@ -39,5 +40,6 @@ root.render(<>
   <A12asyncfnc></A12asyncfnc>
   <A12asyncAwait></A12asyncAwait>
   <A13fetchApi></A13fetchApi>
+  <A14leetcode></A14leetcode>
 </>);
 reportWebVitals();
